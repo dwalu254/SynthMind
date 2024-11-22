@@ -17,11 +17,11 @@ Multilingual support for over 29 languages, including Chinese, English, French, 
 
 # Setup
 Prerequisites
-For installation of dependencies, run ```pip install requirements```
+For installation of dependencies, run ```pip install -r /requirements/requirements.txt```
 GPU (Optional but recommended for training)
 
 # Fine-Tuning and Uploading to Hugging Face Hub
-```Qwen2_5_1_5B Train Script.ipynb``` file uses ```synthetic-orders-data.csv``` and ```synthetic-product-data.csv``` under datasets folder to train and fine tune Qwen2.5-1.5B
+```Qwen2_5_1_5B Train Script.ipynb```file under trainer folder uses ```synthetic-orders-data.csv``` and ```synthetic-product-data.csv``` under datasets folder to train and fine tune Qwen2.5-1.5B
 and the finetuned model is uploaded to huggingface_hub
 
 # Using the Fine-Tuned Model
