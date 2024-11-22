@@ -19,20 +19,16 @@ Troubleshooting
 
 # Setup
 Prerequisites
-Ensure you have the following installed:
-
-Python 3.8 or later
-PyTorch or TensorFlow
-Hugging Face Transformers library
+For installation of dependencies, run ```pip install requirements```
 GPU (Optional but recommended for training)
 
 # Fine-Tuning and Uploading to Hugging Face Hub
-Qwen2_5_1_5B Train Script.ipynb file uses synthetic-orders-data.csv and synthetic-product-data.csv under datasets folder to train and fine tune Qwen2.5-1.5B
+```Qwen2_5_1_5B Train Script.ipynb``` file uses ```synthetic-orders-data.csv``` and ```synthetic-product-data.csv``` under datasets folder to train and fine tune Qwen2.5-1.5B
 and the finetuned model is uploaded to huggingface_hub
 
 # Using the Fine-Tuned Model
 The model can be used via StreamLit where Queries can be passed directly and an output is displayed
-To start the application run streamlit run SynthMind chatbot.py
+To start the application run ```streamlit run SynthMindchatbot.py```
 
 # Troubleshooting
 Out-of-Memory Errors:
