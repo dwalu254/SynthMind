@@ -3,7 +3,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Initialize Streamlit app
-st.title("Chat with a Hugging Face Model")
+st.title("Chat with SynthMind")
 
 # Sidebar for model selection and configurations
 st.sidebar.header("Model Configuration")
