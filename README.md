@@ -10,12 +10,10 @@ Long-context Support up to 128K tokens and can generate up to 8K tokens.
 Multilingual support for over 29 languages, including Chinese, English, French, Spanish, Portuguese, German, Italian, Russian, Japanese, Korean, Vietnamese, Thai, Arabic, and more.
 
 # Table of Contents
-Prerequisites
-Setup
-Fine-Tuning
-Using the Fine-Tuned Model
-Uploading to Hugging Face Hub
-Troubleshooting
+* Setup
+* Fine-Tuning and Uploading to Hugging Face Hub
+* Using the Fine-Tuned Model
+* Troubleshooting
 
 # Setup
 Prerequisites
