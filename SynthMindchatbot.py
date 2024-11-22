@@ -3,7 +3,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # Initialize Streamlit app
-st.title("Chat with SynthMind")
+st.title("Welcome to ShopWise Solutions")
+st.header("The initialisation of the agent will take a while on the initial load as the tensors are downloaded. Please be patient.")
 
 # Sidebar for model selection and configurations
 st.sidebar.header("Model Configuration")
